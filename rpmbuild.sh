@@ -1,6 +1,5 @@
 #!/usr/bash
 
-sudo sh add_repo.sh
 sudo yum install gcc gcc-c++ make wget git rpm-build rpmdevtools gdb gtest-devel -y
 rpmdev-setuptree
 cp specs/rocksdb.spec ~/rpmbuild/SPECS/
